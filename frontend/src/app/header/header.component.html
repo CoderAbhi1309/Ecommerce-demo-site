@@ -1,0 +1,42 @@
+
+      <nav style="margin-bottom: 2%; border-width: medium; border-style: solid ; border-color: slategrey; box-shadow: inset;" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"> <div style="font-style: italic; font-size: larger; font-weight: bolder">Hop & Shop!</div> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active" style="padding-right: 7%;">
+              <div routerLink="/landing"> 
+              <a class="nav-link" style="font-weight: bold; color: black;" >Home <span class="sr-only">(current)</span></a>
+              </div>
+            </li>
+            <li class="nav-item active" style="padding-right: 7%;">
+              <div routerLink="/men"> 
+              <a class="nav-link" style="font-weight: bold; color: black;">MEN <span class="sr-only">(current)</span></a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <div routerLink="/women"> 
+              <a class="nav-link" style="font-weight: bold; color: black;" >WOMEN <span class="sr-only">(current)</span></a>
+              </div>
+            </li>
+          
+            
+          </ul>
+          <div style="padding-right: 1%" routerLink="/login">
+            <a class="nav-link" ><b>LOG-IN</b><span class="sr-only">(current)</span></a>
+          </div>
+          <div style="padding-right: 1%">
+            <a class="nav-link" ><img src="" alt="My cart"><span class="sr-only">(current)</span></a>
+          </div>
+          <div style="padding-right: 1%;">
+            <a class="nav-link" ><div routerLink="/profile"> <img src="" alt="Profile"></div> <span class="sr-only">(current)</span></a>
+          </div>                 
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: mediumseagreen;" ><img src="" alt="Search"></button>
+          </form>
+        </div>
+      </nav>

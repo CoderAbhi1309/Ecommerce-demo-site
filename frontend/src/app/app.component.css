@@ -1,0 +1,14 @@
+h3{
+    background-color: blueviolet;
+}
+.hidden {
+    display: none;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.text-yellow{
+    color: yellow;
+}
